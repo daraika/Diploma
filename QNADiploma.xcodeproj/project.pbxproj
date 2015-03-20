@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBB3771D1A98959400D663DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3771C1A98959400D663DE /* main.m */; };
+		EBB377201A98959400D663DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3771F1A98959400D663DE /* AppDelegate.m */; };
+		EBB377231A98959500D663DE /* QNADiploma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBB377211A98959500D663DE /* QNADiploma.xcdatamodeld */; };
+		EBB377261A98959500D663DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB377251A98959500D663DE /* ViewController.m */; };
+		EBB377291A98959500D663DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB377271A98959500D663DE /* Main.storyboard */; };
+		EBB3772B1A98959500D663DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB3772A1A98959500D663DE /* Images.xcassets */; };
+		EBB3772E1A98959500D663DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBB3772C1A98959500D663DE /* LaunchScreen.xib */; };
+		EBB3773A1A98959500D663DE /* QNADiplomaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB377391A98959500D663DE /* QNADiplomaTests.m */; };
+		EBB3774B1A9896FF00D663DE /* QNAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3774A1A9896FF00D663DE /* QNAHomeViewController.m */; };
+		EBB3775F1A9897B500D663DE /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB377511A9897B500D663DE /* SlideNavigationContorllerAnimatorFade.m */; };
+		EBB377601A9897B500D663DE /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB377531A9897B500D663DE /* SlideNavigationContorllerAnimatorScale.m */; };
+		EBB377611A9897B500D663DE /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB377551A9897B500D663DE /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		EBB377621A9897B500D663DE /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB377571A9897B500D663DE /* SlideNavigationContorllerAnimatorSlide.m */; };
+		EBB377631A9897B500D663DE /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB377591A9897B500D663DE /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		EBB377641A9897B500D663DE /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB3775B1A9897B500D663DE /* menu-button.png */; };
+		EBB377651A9897B500D663DE /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB3775C1A9897B500D663DE /* menu-button@2x.png */; };
+		EBB377661A9897B500D663DE /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3775E1A9897B500D663DE /* SlideNavigationController.m */; };
+		EBB3776B1A9899C400D663DE /* QNAMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3776A1A9899C400D663DE /* QNAMenuViewController.m */; };
+		EBB377831A98A47600D663DE /* UIColor+Tints.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3777C1A98A47600D663DE /* UIColor+Tints.m */; };
+		EBB377841A98A47600D663DE /* UIImage+Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3777F1A98A47600D663DE /* UIImage+Overlay.m */; };
+		EBB377851A98A47600D663DE /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB377821A98A47600D663DE /* UIImage+Scale.m */; };
+		EBB377881A98A6A200D663DE /* 1x1.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB377871A98A6A200D663DE /* 1x1.png */; };
+		EBB3778C1A98A8FD00D663DE /* QNAQuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3778B1A98A8FD00D663DE /* QNAQuestionTableViewCell.m */; };
+		EBB377911A98B85600D663DE /* QNAMyAnswersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB377901A98B85600D663DE /* QNAMyAnswersViewController.m */; };
+		EBB377941A98B86700D663DE /* QNAMyQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB377931A98B86700D663DE /* QNAMyQuestionsViewController.m */; };
+		EBB377981A98B91700D663DE /* QNAMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB377971A98B91700D663DE /* QNAMenuItem.m */; };
+		EBB3779C1A98B99C00D663DE /* QNAMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3779B1A98B99C00D663DE /* QNAMenuTableViewCell.m */; };
+		EBB377A01A98BF9000D663DE /* rituals_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB3779E1A98BF9000D663DE /* rituals_icon.png */; };
+		EBB377A11A98BF9000D663DE /* store_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB3779F1A98BF9000D663DE /* store_icon.png */; };
+		EBB377A51A98C41900D663DE /* QNAMyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB377A41A98C41900D663DE /* QNAMyProfileViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBB377341A98959500D663DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBB3770F1A98959400D663DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB377161A98959400D663DE;
+			remoteInfo = QNADiploma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBB377171A98959400D663DE /* QNADiploma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QNADiploma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB3771B1A98959400D663DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB3771C1A98959400D663DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBB3771E1A98959400D663DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBB3771F1A98959400D663DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBB377221A98959500D663DE /* QNADiploma.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QNADiploma.xcdatamodel; sourceTree = "<group>"; };
+		EBB377241A98959500D663DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBB377251A98959500D663DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBB377281A98959500D663DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBB3772A1A98959500D663DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBB3772D1A98959500D663DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EBB377331A98959500D663DE /* QNADiplomaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QNADiplomaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB377381A98959500D663DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB377391A98959500D663DE /* QNADiplomaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNADiplomaTests.m; sourceTree = "<group>"; };
+		EBB377491A9896FF00D663DE /* QNAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNAHomeViewController.h; sourceTree = "<group>"; };
+		EBB3774A1A9896FF00D663DE /* QNAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNAHomeViewController.m; sourceTree = "<group>"; };
+		EBB3774F1A9897B500D663DE /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		EBB377501A9897B500D663DE /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		EBB377511A9897B500D663DE /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		EBB377521A9897B500D663DE /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		EBB377531A9897B500D663DE /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		EBB377541A9897B500D663DE /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		EBB377551A9897B500D663DE /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		EBB377561A9897B500D663DE /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		EBB377571A9897B500D663DE /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		EBB377581A9897B500D663DE /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		EBB377591A9897B500D663DE /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		EBB3775B1A9897B500D663DE /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		EBB3775C1A9897B500D663DE /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		EBB3775D1A9897B500D663DE /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		EBB3775E1A9897B500D663DE /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		EBB377691A9899C400D663DE /* QNAMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNAMenuViewController.h; sourceTree = "<group>"; };
+		EBB3776A1A9899C400D663DE /* QNAMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNAMenuViewController.m; sourceTree = "<group>"; };
+		EBB3777B1A98A47600D663DE /* UIColor+Tints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tints.h"; sourceTree = "<group>"; };
+		EBB3777C1A98A47600D663DE /* UIColor+Tints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tints.m"; sourceTree = "<group>"; };
+		EBB3777E1A98A47600D663DE /* UIImage+Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Overlay.h"; sourceTree = "<group>"; };
+		EBB3777F1A98A47600D663DE /* UIImage+Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Overlay.m"; sourceTree = "<group>"; };
+		EBB377811A98A47600D663DE /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		EBB377821A98A47600D663DE /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		EBB377871A98A6A200D663DE /* 1x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1x1.png; sourceTree = "<group>"; };
+		EBB3778A1A98A8FD00D663DE /* QNAQuestionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNAQuestionTableViewCell.h; sourceTree = "<group>"; };
+		EBB3778B1A98A8FD00D663DE /* QNAQuestionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNAQuestionTableViewCell.m; sourceTree = "<group>"; };
+		EBB3778F1A98B85600D663DE /* QNAMyAnswersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNAMyAnswersViewController.h; sourceTree = "<group>"; };
+		EBB377901A98B85600D663DE /* QNAMyAnswersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNAMyAnswersViewController.m; sourceTree = "<group>"; };
+		EBB377921A98B86700D663DE /* QNAMyQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNAMyQuestionsViewController.h; sourceTree = "<group>"; };
+		EBB377931A98B86700D663DE /* QNAMyQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNAMyQuestionsViewController.m; sourceTree = "<group>"; };
+		EBB377961A98B91700D663DE /* QNAMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNAMenuItem.h; sourceTree = "<group>"; };
+		EBB377971A98B91700D663DE /* QNAMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNAMenuItem.m; sourceTree = "<group>"; };
+		EBB3779A1A98B99C00D663DE /* QNAMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNAMenuTableViewCell.h; sourceTree = "<group>"; };
+		EBB3779B1A98B99C00D663DE /* QNAMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNAMenuTableViewCell.m; sourceTree = "<group>"; };
+		EBB3779E1A98BF9000D663DE /* rituals_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rituals_icon.png; sourceTree = "<group>"; };
+		EBB3779F1A98BF9000D663DE /* store_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_icon.png; sourceTree = "<group>"; };
+		EBB377A31A98C41900D663DE /* QNAMyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNAMyProfileViewController.h; sourceTree = "<group>"; };
+		EBB377A41A98C41900D663DE /* QNAMyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNAMyProfileViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBB377141A98959400D663DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB377301A98959500D663DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBB3770E1A98959400D663DE = {
+			isa = PBXGroup;
+			children = (
+				EBB377191A98959400D663DE /* QNADiploma */,
+				EBB377361A98959500D663DE /* QNADiplomaTests */,
+				EBB377181A98959400D663DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBB377181A98959400D663DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377171A98959400D663DE /* QNADiploma.app */,
+				EBB377331A98959500D663DE /* QNADiplomaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB377191A98959400D663DE /* QNADiploma */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3776C1A98A44E00D663DE /* Utils */,
+				EBB3774C1A9897AA00D663DE /* Libs */,
+				EBB377461A98961900D663DE /* Views */,
+				EBB377451A98961200D663DE /* Models */,
+				EBB377441A98960A00D663DE /* Controllers */,
+				EBB377431A9895F600D663DE /* AppDelegate */,
+				EBB3771A1A98959400D663DE /* Supporting Files */,
+			);
+			path = QNADiploma;
+			sourceTree = "<group>";
+		};
+		EBB3771A1A98959400D663DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3771B1A98959400D663DE /* Info.plist */,
+				EBB3771C1A98959400D663DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBB377361A98959500D663DE /* QNADiplomaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377391A98959500D663DE /* QNADiplomaTests.m */,
+				EBB377371A98959500D663DE /* Supporting Files */,
+			);
+			path = QNADiplomaTests;
+			sourceTree = "<group>";
+		};
+		EBB377371A98959500D663DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377381A98959500D663DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBB377431A9895F600D663DE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3771E1A98959400D663DE /* AppDelegate.h */,
+				EBB3771F1A98959400D663DE /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EBB377441A98960A00D663DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377A21A98C3DC00D663DE /* MyProfileController */,
+				EBB3778E1A98B80900D663DE /* MyQuestionsController */,
+				EBB3778D1A98B7F000D663DE /* MyAnswersController */,
+				EBB377481A98968400D663DE /* HomeController */,
+				EBB377671A98995100D663DE /* MenuController */,
+				EBB377471A98967000D663DE /* BaseController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EBB377451A98961200D663DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377211A98959500D663DE /* QNADiploma.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EBB377461A98961900D663DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377861A98A6A200D663DE /* imageSource */,
+				EBB377271A98959500D663DE /* Main.storyboard */,
+				EBB3772A1A98959500D663DE /* Images.xcassets */,
+				EBB3772C1A98959500D663DE /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EBB377471A98967000D663DE /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377241A98959500D663DE /* ViewController.h */,
+				EBB377251A98959500D663DE /* ViewController.m */,
+			);
+			name = BaseController;
+			sourceTree = "<group>";
+		};
+		EBB377481A98968400D663DE /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377891A98A8C900D663DE /* QuestionTableViewCell */,
+				EBB377491A9896FF00D663DE /* QNAHomeViewController.h */,
+				EBB3774A1A9896FF00D663DE /* QNAHomeViewController.m */,
+			);
+			name = HomeController;
+			sourceTree = "<group>";
+		};
+		EBB3774C1A9897AA00D663DE /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3774D1A9897B500D663DE /* SlidingMenu */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		EBB3774D1A9897B500D663DE /* SlidingMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3774E1A9897B500D663DE /* Animations */,
+				EBB3775A1A9897B500D663DE /* Assets */,
+				EBB3775D1A9897B500D663DE /* SlideNavigationController.h */,
+				EBB3775E1A9897B500D663DE /* SlideNavigationController.m */,
+			);
+			path = SlidingMenu;
+			sourceTree = "<group>";
+		};
+		EBB3774E1A9897B500D663DE /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3774F1A9897B500D663DE /* SlideNavigationContorllerAnimator.h */,
+				EBB377501A9897B500D663DE /* SlideNavigationContorllerAnimatorFade.h */,
+				EBB377511A9897B500D663DE /* SlideNavigationContorllerAnimatorFade.m */,
+				EBB377521A9897B500D663DE /* SlideNavigationContorllerAnimatorScale.h */,
+				EBB377531A9897B500D663DE /* SlideNavigationContorllerAnimatorScale.m */,
+				EBB377541A9897B500D663DE /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				EBB377551A9897B500D663DE /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				EBB377561A9897B500D663DE /* SlideNavigationContorllerAnimatorSlide.h */,
+				EBB377571A9897B500D663DE /* SlideNavigationContorllerAnimatorSlide.m */,
+				EBB377581A9897B500D663DE /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				EBB377591A9897B500D663DE /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		EBB3775A1A9897B500D663DE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3775B1A9897B500D663DE /* menu-button.png */,
+				EBB3775C1A9897B500D663DE /* menu-button@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EBB377671A98995100D663DE /* MenuController */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377991A98B97400D663DE /* MenuTableViewCell */,
+				EBB377951A98B8ED00D663DE /* MenuItem */,
+				EBB377691A9899C400D663DE /* QNAMenuViewController.h */,
+				EBB3776A1A9899C400D663DE /* QNAMenuViewController.m */,
+			);
+			name = MenuController;
+			sourceTree = "<group>";
+		};
+		EBB3776C1A98A44E00D663DE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3777A1A98A47600D663DE /* UIColor + Tints */,
+				EBB3777D1A98A47600D663DE /* UIImage + Overlay */,
+				EBB377801A98A47600D663DE /* UIImage + Scale */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		EBB3777A1A98A47600D663DE /* UIColor + Tints */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3777B1A98A47600D663DE /* UIColor+Tints.h */,
+				EBB3777C1A98A47600D663DE /* UIColor+Tints.m */,
+			);
+			name = "UIColor + Tints";
+			path = "Utils/UIColor + Tints";
+			sourceTree = "<group>";
+		};
+		EBB3777D1A98A47600D663DE /* UIImage + Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3777E1A98A47600D663DE /* UIImage+Overlay.h */,
+				EBB3777F1A98A47600D663DE /* UIImage+Overlay.m */,
+			);
+			name = "UIImage + Overlay";
+			path = "Utils/UIImage + Overlay";
+			sourceTree = "<group>";
+		};
+		EBB377801A98A47600D663DE /* UIImage + Scale */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377811A98A47600D663DE /* UIImage+Scale.h */,
+				EBB377821A98A47600D663DE /* UIImage+Scale.m */,
+			);
+			name = "UIImage + Scale";
+			path = "Utils/UIImage + Scale";
+			sourceTree = "<group>";
+		};
+		EBB377861A98A6A200D663DE /* imageSource */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3779D1A98BF9000D663DE /* MenuIcons */,
+				EBB377871A98A6A200D663DE /* 1x1.png */,
+			);
+			path = imageSource;
+			sourceTree = "<group>";
+		};
+		EBB377891A98A8C900D663DE /* QuestionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3778A1A98A8FD00D663DE /* QNAQuestionTableViewCell.h */,
+				EBB3778B1A98A8FD00D663DE /* QNAQuestionTableViewCell.m */,
+			);
+			name = QuestionTableViewCell;
+			sourceTree = "<group>";
+		};
+		EBB3778D1A98B7F000D663DE /* MyAnswersController */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3778F1A98B85600D663DE /* QNAMyAnswersViewController.h */,
+				EBB377901A98B85600D663DE /* QNAMyAnswersViewController.m */,
+			);
+			name = MyAnswersController;
+			sourceTree = "<group>";
+		};
+		EBB3778E1A98B80900D663DE /* MyQuestionsController */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377921A98B86700D663DE /* QNAMyQuestionsViewController.h */,
+				EBB377931A98B86700D663DE /* QNAMyQuestionsViewController.m */,
+			);
+			name = MyQuestionsController;
+			sourceTree = "<group>";
+		};
+		EBB377951A98B8ED00D663DE /* MenuItem */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377961A98B91700D663DE /* QNAMenuItem.h */,
+				EBB377971A98B91700D663DE /* QNAMenuItem.m */,
+			);
+			name = MenuItem;
+			sourceTree = "<group>";
+		};
+		EBB377991A98B97400D663DE /* MenuTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3779A1A98B99C00D663DE /* QNAMenuTableViewCell.h */,
+				EBB3779B1A98B99C00D663DE /* QNAMenuTableViewCell.m */,
+			);
+			name = MenuTableViewCell;
+			sourceTree = "<group>";
+		};
+		EBB3779D1A98BF9000D663DE /* MenuIcons */ = {
+			isa = PBXGroup;
+			children = (
+				EBB3779E1A98BF9000D663DE /* rituals_icon.png */,
+				EBB3779F1A98BF9000D663DE /* store_icon.png */,
+			);
+			path = MenuIcons;
+			sourceTree = "<group>";
+		};
+		EBB377A21A98C3DC00D663DE /* MyProfileController */ = {
+			isa = PBXGroup;
+			children = (
+				EBB377A31A98C41900D663DE /* QNAMyProfileViewController.h */,
+				EBB377A41A98C41900D663DE /* QNAMyProfileViewController.m */,
+			);
+			name = MyProfileController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBB377161A98959400D663DE /* QNADiploma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB3773D1A98959500D663DE /* Build configuration list for PBXNativeTarget "QNADiploma" */;
+			buildPhases = (
+				EBB377131A98959400D663DE /* Sources */,
+				EBB377141A98959400D663DE /* Frameworks */,
+				EBB377151A98959400D663DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QNADiploma;
+			productName = QNADiploma;
+			productReference = EBB377171A98959400D663DE /* QNADiploma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBB377321A98959500D663DE /* QNADiplomaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB377401A98959500D663DE /* Build configuration list for PBXNativeTarget "QNADiplomaTests" */;
+			buildPhases = (
+				EBB3772F1A98959500D663DE /* Sources */,
+				EBB377301A98959500D663DE /* Frameworks */,
+				EBB377311A98959500D663DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBB377351A98959500D663DE /* PBXTargetDependency */,
+			);
+			name = QNADiplomaTests;
+			productName = QNADiplomaTests;
+			productReference = EBB377331A98959500D663DE /* QNADiplomaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBB3770F1A98959400D663DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Zhans Inc.";
+				TargetAttributes = {
+					EBB377161A98959400D663DE = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 3Y97H6LP36;
+					};
+					EBB377321A98959500D663DE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EBB377161A98959400D663DE;
+					};
+				};
+			};
+			buildConfigurationList = EBB377121A98959400D663DE /* Build configuration list for PBXProject "QNADiploma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBB3770E1A98959400D663DE;
+			productRefGroup = EBB377181A98959400D663DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBB377161A98959400D663DE /* QNADiploma */,
+				EBB377321A98959500D663DE /* QNADiplomaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBB377151A98959400D663DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB377881A98A6A200D663DE /* 1x1.png in Resources */,
+				EBB377641A9897B500D663DE /* menu-button.png in Resources */,
+				EBB377291A98959500D663DE /* Main.storyboard in Resources */,
+				EBB3772E1A98959500D663DE /* LaunchScreen.xib in Resources */,
+				EBB377651A9897B500D663DE /* menu-button@2x.png in Resources */,
+				EBB377A01A98BF9000D663DE /* rituals_icon.png in Resources */,
+				EBB377A11A98BF9000D663DE /* store_icon.png in Resources */,
+				EBB3772B1A98959500D663DE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB377311A98959500D663DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBB377131A98959400D663DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB3778C1A98A8FD00D663DE /* QNAQuestionTableViewCell.m in Sources */,
+				EBB377661A9897B500D663DE /* SlideNavigationController.m in Sources */,
+				EBB377851A98A47600D663DE /* UIImage+Scale.m in Sources */,
+				EBB377831A98A47600D663DE /* UIColor+Tints.m in Sources */,
+				EBB3775F1A9897B500D663DE /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				EBB377201A98959400D663DE /* AppDelegate.m in Sources */,
+				EBB377841A98A47600D663DE /* UIImage+Overlay.m in Sources */,
+				EBB377981A98B91700D663DE /* QNAMenuItem.m in Sources */,
+				EBB377231A98959500D663DE /* QNADiploma.xcdatamodeld in Sources */,
+				EBB3779C1A98B99C00D663DE /* QNAMenuTableViewCell.m in Sources */,
+				EBB377941A98B86700D663DE /* QNAMyQuestionsViewController.m in Sources */,
+				EBB377261A98959500D663DE /* ViewController.m in Sources */,
+				EBB3771D1A98959400D663DE /* main.m in Sources */,
+				EBB377611A9897B500D663DE /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				EBB377A51A98C41900D663DE /* QNAMyProfileViewController.m in Sources */,
+				EBB3774B1A9896FF00D663DE /* QNAHomeViewController.m in Sources */,
+				EBB377601A9897B500D663DE /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				EBB377911A98B85600D663DE /* QNAMyAnswersViewController.m in Sources */,
+				EBB377631A9897B500D663DE /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				EBB3776B1A9899C400D663DE /* QNAMenuViewController.m in Sources */,
+				EBB377621A9897B500D663DE /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB3772F1A98959500D663DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB3773A1A98959500D663DE /* QNADiplomaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBB377351A98959500D663DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBB377161A98959400D663DE /* QNADiploma */;
+			targetProxy = EBB377341A98959500D663DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBB377271A98959500D663DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB377281A98959500D663DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBB3772C1A98959500D663DE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB3772D1A98959500D663DE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBB3773B1A98959500D663DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBB3773C1A98959500D663DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBB3773E1A98959500D663DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QNADiploma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EBB3773F1A98959500D663DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QNADiploma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EBB377411A98959500D663DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QNADiplomaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QNADiploma.app/QNADiploma";
+			};
+			name = Debug;
+		};
+		EBB377421A98959500D663DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QNADiplomaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QNADiploma.app/QNADiploma";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBB377121A98959400D663DE /* Build configuration list for PBXProject "QNADiploma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB3773B1A98959500D663DE /* Debug */,
+				EBB3773C1A98959500D663DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB3773D1A98959500D663DE /* Build configuration list for PBXNativeTarget "QNADiploma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB3773E1A98959500D663DE /* Debug */,
+				EBB3773F1A98959500D663DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBB377401A98959500D663DE /* Build configuration list for PBXNativeTarget "QNADiplomaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB377411A98959500D663DE /* Debug */,
+				EBB377421A98959500D663DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBB377211A98959500D663DE /* QNADiploma.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBB377221A98959500D663DE /* QNADiploma.xcdatamodel */,
+			);
+			currentVersion = EBB377221A98959500D663DE /* QNADiploma.xcdatamodel */;
+			path = QNADiploma.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBB3770F1A98959400D663DE /* Project object */;
+}
